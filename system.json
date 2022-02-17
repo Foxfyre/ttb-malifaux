@@ -18,10 +18,10 @@
         }
     ],
     "esmodules": [
-        "ttb.js"
+        "ttb-malifaux.js"
     ],
     "styles": [
-        "styles/yyb.css"
+        "styles/ttb.css"
     ],
     "scripts": [],
     "packs": [],
@@ -43,8 +43,8 @@
     "gridUnits": "m",
     "primaryTokenAttribute": "",
     "secondaryTokenAttribute": "",
-    "url": "https://github.com/Foxfyre/ttb",
-    "manifest": "https://raw.githubusercontent.com/Foxfyre/ttb/main/system.json",
-    "download": "https://github.com/Foxfyre/ttb/releases/download/v0.0.1/ttb.zip",
+    "url": "https://github.com/Foxfyre/ttb-malifaux",
+    "manifest": "https://raw.githubusercontent.com/Foxfyre/ttb-malifaux/main/system.json",
+    "download": "https://github.com/Foxfyre/ttb-malifaux/releases/download/v0.0.1/ttb-malifaux.zip",
     "license": "LICENSE.txt"
 }
