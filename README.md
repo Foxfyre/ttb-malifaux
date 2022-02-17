@@ -1,2 +1,2 @@
-# ttb-malifaux
+# malifaux
  

@@ -1,8 +1,8 @@
 {
-    "name": "ttb-malifaux",
+    "name": "malifaux",
     "title": "Malifaux & Through The Breach",
     "description": "A hybrid system for playing the Through the Breach Tabletop Roleplaying game, and Malifaux, the skirmish wargame",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
     "author": "Charlotte Hamilton",
@@ -11,17 +11,13 @@
             "name": "Charlotte Hamilton",
             "email": "foxfyre2204@gmail.com",
             "discord": "Foxfyre#2204"
-        },
-        {
-            "name": "",
-            "email": ""
         }
     ],
     "esmodules": [
-        "ttb-malifaux.js"
+        "malifaux.js"
     ],
     "styles": [
-        "styles/ttb.css"
+        "styles/malifaux.css"
     ],
     "scripts": [],
     "packs": [],
@@ -43,8 +39,8 @@
     "gridUnits": "m",
     "primaryTokenAttribute": "",
     "secondaryTokenAttribute": "",
-    "url": "https://github.com/Foxfyre/ttb-malifaux",
-    "manifest": "https://raw.githubusercontent.com/Foxfyre/ttb-malifaux/main/system.json",
-    "download": "https://github.com/Foxfyre/ttb-malifaux/releases/download/v0.0.1/ttb-malifaux.zip",
+    "url": "https://github.com/Foxfyre/malifaux",
+    "manifest": "https://raw.githubusercontent.com/Foxfyre/malifaux/main/system.json",
+    "download": "https://github.com/Foxfyre/malifaux/releases/download/v0.0.1/malifaux.zip",
     "license": "LICENSE.txt"
 }
