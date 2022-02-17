@@ -2,7 +2,7 @@
     "name": "ttb-malifaux",
     "title": "Malifaux & Through The Breach",
     "description": "A hybrid system for playing the Through the Breach Tabletop Roleplaying game, and Malifaux, the skirmish wargame",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
     "author": "Charlotte Hamilton",
