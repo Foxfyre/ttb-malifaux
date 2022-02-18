@@ -1,8 +1,8 @@
-import { malifauxActorSheet } from "./scripts/actors/actor-sheet.js";
-import { malifauxActor } from "./scripts/actors/actor.js";
-import { malifauxItemSheet } from "./scripts/items/item-sheet.js";
-import { malifauxItem } from "./scripts/items/item.js";
-import { malifauxScene } from "./scripts/scenes/scene.js";
+import { MalifauxActorSheet } from "./scripts/actors/actor-sheet.js";
+import { MalifauxActor } from "./scripts/actors/actor.js";
+import { MalifauxItemSheet } from "./scripts/items/item-sheet.js";
+import { MalifauxItem } from "./scripts/items/item.js";
+//import { malifauxScene } from "./scripts/scenes/scene.js";
 
 import { initializeHandlebars } from "./scripts/system/handlebars.js";
 
@@ -10,22 +10,22 @@ Hooks.once("init", async function () {
   console.log(`Initializing A Template`);
 
   // Define custom Entity classes
-  CONFIG.Actor.documentClass = malifauxActor;
-  CONFIG.Item.documentClass = malifauxItem;
-  CONFIG.Scene.documentClass = malifauxScene;
+  CONFIG.Actor.documentClass = MalifauxActor;
+  CONFIG.Item.documentClass = MalifauxItem;
+  //CONFIG.Scene.documentClass = malifauxScene;
   CONFIG.Combat.initiative = {
     formula: "1d12",
     decimals: 2
   }
 
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("malifaux", malifauxActorSheet, {
+  Actors.registerSheet("malifaux", MalifauxActorSheet, {
     types: ["character", "npc"],
     makeDefault: true
   });
 
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("malifaux", malifauxItemSheet, {
+  Items.registerSheet("malifaux", MalifauxItemSheet, {
     makeDefault: true
   });
 
