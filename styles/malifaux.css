@@ -2,6 +2,54 @@
     background-color: #fffaf1;
 }
 
+.ttb-character .sheet .ttb-banner {
+    display: flex;
+}
+
+.ttb-character .sheet .ttb-banner img {
+    width: 100%;
+}
+
+img {
+    border: none;
+}
+
 body {
     background-color: #fffaf1;
 }
+
+.fated-info {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 30px 10px 0 10px;
+}
+
+.fated-info input {
+    border: none;
+}
+
+.fated-info-left-col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.fated-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.fated-name .fated-title {
+    height: 30px;
+    align-items: center;
+    font-size: large;
+}
+
+.fated-title {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
